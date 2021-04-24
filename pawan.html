@@ -1,0 +1,178 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f0c245c7a.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color: #121823;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container {
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .title {
+            color: #ffffff;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .circle-img {
+            width: 150px;
+            height: 150px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .section {
+            /* border: 1px solid white; */
+            height: 30vh;
+            color: white;
+            position: relative;
+            width: 40vw;
+            word-wrap: break-word;
+            color: #9f9f9f;
+            min-height: 30vh;
+        }
+
+        span {
+            margin: 0px 5px;
+        }
+
+        .links-span {
+            margin: 0px 15px;
+            font-size: 20px;
+        }
+
+        .gold {
+            color: white
+        }
+
+        .chip {
+            display: inline-block;
+            padding: 0px 20px;
+            height: 35px;
+            font-size: 0.9rem;
+            line-height: 35px;
+            border-radius: 25px;
+            border: 2px solid #121823;
+            background-color: #EFFCF4;
+            margin: 5px;
+            color: #3272E0;
+            font-weight: 600;
+        }
+
+        .chip img {
+            float: left;
+            margin: 0 10px 0 -20px;
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .marginTopBottom {
+            margin-bottom: 10vh;
+        }
+
+
+
+        @media only screen and (max-width: 700px) {
+            .section {
+                /* border: 1px solid white; */
+                /* height: 300px; */
+                color: white;
+                position: relative;
+                width: 90vw;
+                word-wrap: break-word;
+                color: #9f9f9f;
+                min-height: 50vh;
+            }
+
+            .paddin-top {
+                padding-top: 20vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section paddin-top">
+            <div class="center">
+                <img class="circle-img" src="./me.jpg" />
+                <h3 class="title">Pawan Vedak</h3>
+                <p><span><i class="fas fa-at"></i></i> </span>pawan.s.vedak@gmail.com</p>
+                <p><span><i class="fas fa-briefcase"></i> </span>Digital Technologist at Experience Commerce</p>
+                <div>
+                    <span class="links-span"><i class="fab fa-git-alt"></i></span>
+                    <span class="links-span"><i class="fab fa-linkedin"></i></span>
+                    <span class="links-span"><i class="fab fa-facebook-f"></i></span>
+                    <span class="links-span"><i class="fab fa-instagram"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="marginTopBottom">
+                <h2 class="title">About Me</h1>
+                    <p>👋 Hi I'm Pawan, I am a webdeveloper and have work experience of more than 3 years. I have developed most of the project's in JavaScript and Php</p>
+            </div>
+            <div class="marginTopBottom">
+                <h2 class="title">💼 Technologies I have worked on.</h1>
+                    <div>
+                        <div class="chip">
+                            <img src="JavaScript-logo.png" alt="Person" width="96" height="96">
+                            Javascript
+                        </div>
+                        <div class="chip">
+                            <img src="angular.png" alt="Person" width="96" height="96">
+                            Angular
+                        </div>
+                        <div class="chip">
+                            <img src="ionic.jpg" alt="Person" width="96" height="96">
+                            Ionic
+                        </div>
+                        <div class="chip">
+                            <img src="mongodb.png" alt="Person" width="96" height="96">
+                            MongoDb
+                        </div>
+                        <div class="chip">
+                            <img src="nodejs.jpeg" alt="Person" width="96" height="96">
+                            Node
+                        </div>
+                        <div class="chip">
+                            <img src="drupal.png" alt="Person" width="96" height="96">
+                            Drupal
+                        </div>
+                        <div class="chip">
+                            <img src="wordpress.png" alt="Person" width="96" height="96">
+                            Wordpress
+                        </div>
+                        <div class="chip">
+                            <img src="woocommerce.jpeg" alt="Person" width="96" height="96">
+                            Woocommerce
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
